@@ -17,14 +17,17 @@ public class ArbolesBinariosDeBusqueda {
         // TODO code application logic here
         ArbolAVL arbolitoAVL=new ArbolAVL();
         //Insertando
+        arbolitoAVL.insertar(50);
+        arbolitoAVL.insertar(25);
+        arbolitoAVL.insertar(75);
         arbolitoAVL.insertar(10);
-        arbolitoAVL.insertar(5);
-        arbolitoAVL.insertar(13);
-        arbolitoAVL.insertar(1);
-        arbolitoAVL.insertar(6);
-        arbolitoAVL.insertar(17);
-        arbolitoAVL.insertar(16);
-            
+        arbolitoAVL.insertar(40);
+        arbolitoAVL.insertar(60);
+        arbolitoAVL.insertar(90);
+        arbolitoAVL.insertar(35);
+        arbolitoAVL.insertar(70);
+        arbolitoAVL.insertar(42);
+        //arbolitoAVL.insertar(90);
         
         arbolitoAVL.preOrden(arbolitoAVL.obtenerRaiz());
         
